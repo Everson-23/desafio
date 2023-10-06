@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Signika+Negative:wght@300;400;500;600;700&family=Young+Serif&display=swap');
+html{
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+body{
+    display: flex;
+    background-color: white;
+}
+
+.esquerdo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50vw;
+    height: 100vh;
+}
+.img-fundo{
+    position: absolute;
+    width: 682px;
+    height: 1024px;
+    z-index: -1;
+}
+.azul-filtro{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50vw;
+    height: 100vh;
+    background-color: #19A9C9;
+    opacity: 75%;
+}
+.logo{
+    position: absolute;
+    top: 40px;
+    left: 230px;
+    width: 151px;
+    height: 47px;
+    flex-shrink: 0;
+}
+.img-logo{
+    position: absolute;
+    width: 121px;
+    height: 37px;
+    
+}
+
+.slogan{
+    position: absolute;
+    width: 573px;
+    height: 200px;
+    top: 35vh;
+    left: 32px;
+}
+.slogan-frase{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.subtexto{
+position: inherit;
+top: 130px;
+color: #FFF;
+font-family: 'Inter', sans-serif;
+font-size: 22px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.termos{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 20vw;
+    top: 650px;
+}
+.lista-termos{
+    list-style-type: none;
+    display: flex;
+}
+.
